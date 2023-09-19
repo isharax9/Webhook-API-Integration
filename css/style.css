@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.product img {
+    max-width: 100px;
+}
+
+form {
+    margin-top: 10px;
+}
+
