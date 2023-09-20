@@ -3,6 +3,8 @@
 <head>
     <title>Product Listing</title>
     <link rel="stylesheet" href="./css/style.css">
+    <meta name="ccpayment-site-verification" content="6f3ee5b43d930a54d31a59930b071adc"/> 
+    
 </head>
 <body>
     <header><h1>Product Listing</h1></header>
