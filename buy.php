@@ -14,16 +14,14 @@
 
 <h1>CC Payment here</h1>
 
-https://admin.ccpayment.com/ccpayment/v1/concise/url/get
+<?php
 
-{
-    "order_valid_period":823456,
-    "product_price":"1",
-    "merchant_order_id":"2012033040550",
-    "product_name":"test",
-    "return_url":"https://checkout.ccpayment.com/xxxxx"
-}
+use CCPayment\v1\CCPay;
 
+$resp =  CCPay::CheckUser("9454818","202301310325561620262074393440256","c4600b8125b7ed23b5b7b8ee4acb42f4");
+var_dump($resp);
+
+?>
 
 
 

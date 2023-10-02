@@ -1,0 +1,11 @@
+{
+    "name": "isharalakshitha/webhook",
+    "autoload": {
+        "psr-4": {
+            "Isharalakshitha\\Webhook\\": "src/"
+        }
+    },
+    "require": {
+        "ccpayment/php-sdk": "dev-master"
+    }
+}
